@@ -17,3 +17,8 @@ c=round(a+b)
 print(f"{c:,}")
 
 #ahora con dividendo.
+a=float(input("¿cual es a?"))
+b=float(input("¿cual es b?"))
+c=round(a/b, 2) #el ultimo numero indica cuantos decimales quedan detras de la coma.
+print(c)
+#de otra manera: print(f"{c: .2f})
